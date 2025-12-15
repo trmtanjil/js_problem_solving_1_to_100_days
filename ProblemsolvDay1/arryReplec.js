@@ -9,4 +9,6 @@
     })
     console.log(inputArray)
  }
- arrayReplace([1,2,3],1,3)
+ arrayReplace([1,1,1],1,3)
+
+ 
