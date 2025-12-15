@@ -14,4 +14,18 @@ function totolSum(...elements){
     });
     return totall;
 }
-console.log(totolSum(2,2,3))
+// console.log(totolSum(2,2,3))
+
+// Give a rectangular matrix of characters, add a border of asterisks(*) to it. 
+
+const addStar=(word)=>{
+    let star ="*".repeat(word[0].length+2)
+    word.unshift(star)
+    word.push(star);
+    for(i=1;i<word.length-1;i++){
+        word[i]="*".concat(word[i],"*");
+    }
+    return word;
+
+}
+console.log(addStar(['assfda','a']))
