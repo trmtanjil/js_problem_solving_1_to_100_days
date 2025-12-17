@@ -34,8 +34,7 @@ function isAlphabetSequence(inputSequence) {
 
     for (let i = 1; i < sequence.length; i++) {
         const currentChar = sequence[i];
-        const previousChar = sequence[i - 1];
-
+        const previousChar = sequence[i - 1]
         const currentCode = currentChar.charCodeAt(0);
         const prevCode = previousChar.charCodeAt(0);
 
